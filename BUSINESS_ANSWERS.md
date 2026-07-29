@@ -142,7 +142,7 @@ conclusions.
 | Exact duplicate rows (same `ticket_id`, every field identical) | 15 rows | Dropped, kept first occurrence |
 | Negative `resolution_time_hours` | 88 rows | Didn't reconcile with `resolved_date - created_date` → treated as corrupted. Recomputed from dates where possible, else set to null |
 | `resolution_time_hours` > 500h | 88 rows | Reconciled correctly with raw dates → kept as genuine. All 88 belong to a single agent (AGENT_07) - a finding, not noise |
-| Missing `resolved_date` / `resolution_time_hours` / `csat_score` | up to 1,278 rows | Structural: `csat_score` nulls (1,023) match exactly Open (512) + Reopened (511) tickets — not yet surveyable. Left null, excluded from relevant calculations |
+| Missing `resolved_date` / `resolution_time_hours` / `csat_score` | up to 1,278 rows | Structural: `csat_score` nulls (1,023) match exactly Open (512) + Reopened (511) tickets - not yet surveyable. Left null, excluded from relevant calculations |
 | Missing `created_date` | 73 rows (~1.5%) | No reliable backfill - left null, excluded only from date-dependent calculations |
 | `first_response_time_hours` > `resolution_time_hours` (impossible) | Same 88 rows as negative resolution time | Resolved by the negative-value fix above |
 
