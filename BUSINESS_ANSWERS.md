@@ -44,7 +44,7 @@ What *does* move the number meaningfully is **priority**:
 | Medium | 63.3% |
 | Low | 62.0% |
 
-Critical tickets breach 12 points more often than Low-priority ones — the
+Critical tickets breach 12 points more often than Low-priority ones - the
 opposite of what a functioning triage system should produce. This holds
 inside every category. **The real driver of poor SLA performance is priority
 handling, not category or region.**
