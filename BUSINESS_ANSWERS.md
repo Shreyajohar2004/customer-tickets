@@ -57,7 +57,7 @@ acting on.
 
 ## 2. Is there a relationship between priority and resolution time? Which agent(s) deviate, and by how much?
 
-Yes, in the expected direction — median resolution time drops as priority increases:
+Yes, in the expected direction - median resolution time drops as priority increases:
 
 | Priority | Median resolution time | Mean |
 |---|---|---|
@@ -67,11 +67,11 @@ Yes, in the expected direction — median resolution time drops as priority incr
 | Low | 98.4h | 140.0h |
 
 To find agents who deviate, I computed each ticket's "expected" resolution
-time as the priority-level median, then averaged the deviation (actual −
+time as the priority-level median, then averaged the deviation (actual -
 expected) per agent.
 
-**14 of 15 agents track the pattern closely** — average deviation between
-−4.3h and +3.0h.
+**14 of 15 agents track the pattern closely** - average deviation between
+-4.3h and +3.0h.
 
 **AGENT_07 is a severe outlier: average deviation of +432 hours.** This is
 driven by 91 tickets that took over 500 hours (20+ days) to resolve - and
