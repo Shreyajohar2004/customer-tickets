@@ -85,7 +85,7 @@ marked `sla_breached = Yes`.
 for AGENT_07, whose tickets take ~432 hours longer on average than their
 priority would predict. This concentration (100% of all extreme-duration
 tickets, across every priority level and category) looks less like "AGENT_07
-is slow" and more like a **process issue** — e.g. a backlog/escalation queue
+is slow" and more like a **process issue** - e.g. a backlog/escalation queue
 routed exclusively to this one agent, or an untracked waiting-on-customer
 state. Worth a direct conversation before assuming it's a performance problem.
 
