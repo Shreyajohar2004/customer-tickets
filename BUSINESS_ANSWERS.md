@@ -31,8 +31,8 @@ By region:
 | East | 62.6% |
 
 **Answer:** Account Access (category) and West (region) are technically the
-worst, but every cut sits in a tight 63–67% band - within what you'd expect
-from sampling noise on cells of 700–1,600 tickets each. There's no single
+worst, but every cut sits in a tight 63-67% band - within what you'd expect
+from sampling noise on cells of 700-1,600 tickets each. There's no single
 category or region that stands out dramatically.
 
 What *does* move the number meaningfully is **priority**:
