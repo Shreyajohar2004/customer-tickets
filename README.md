@@ -5,7 +5,7 @@ dataset, built for a take-home analytics assignment.
 
 - **Live dashboard (Streamlit):** https://customer-support-analytics-shreya.streamlit.app/
 - **Live dashboard (Colab):** https://colab.research.google.com/drive/1ec88yxq3fKFDo2Nh-DuVMNHXIn1vxpJx?usp=sharing
-- **Loom walkthrough:** _paste your Loom link here_
+- **Loom walkthrough:** https://www.loom.com/share/4efbee53d2454cedb063850fb0e8eff4
 - **Full written answers:** [BUSINESS_ANSWERS.md](./BUSINESS_ANSWERS.md)
 
 ## Tools & frameworks used
